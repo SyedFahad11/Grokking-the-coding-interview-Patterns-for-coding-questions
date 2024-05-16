@@ -38,6 +38,31 @@ app.post("/updateStatus", async (req, res) => {
 
   res.redirect('/');
 
+  function getDateTime() {
+
+    const currentDate = new Date();
+
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"];
+
+    const day = currentDate.getDate();
+    const month = monthNames[currentDate.getMonth()];
+    const year = currentDate.getFullYear();
+    const formattedDate = `${day} ${month} ${year}`;
+
+    let hours = currentDate.getHours();
+    const amPm = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12 || 12; // Convert hours to 12-hour format
+    const formattedHours = (hours < 10 ? '0' : '') + hours;
+    const minutes = (currentDate.getMinutes() < 10 ? '0' : '') + currentDate.getMinutes();
+    const formattedTime = `${formattedHours}:${minutes} ${amPm}`;
+
+    const dateTimeString = `${formattedDate} | ${formattedTime}`;
+
+    return dateTimeString;
+
+  }
+
   async function updateStatusAndWrite(problemId) {
     try {
       const problems = await read('./data/problems.json');
@@ -53,7 +78,10 @@ app.post("/updateStatus", async (req, res) => {
 
       const solvedData = await read('./data/solved.json');
 
-      const newData = { ...problems[problemIndex] };
+
+      const dateTimeString = getDateTime();
+
+      const newData = { ...problems[problemIndex], date: dateTimeString };
       solvedData.push(newData);
 
       await write('./data/solved.json', solvedData);
