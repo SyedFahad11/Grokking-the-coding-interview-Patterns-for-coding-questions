@@ -5,12 +5,7 @@ fetchDataFromFile('./problems.json')
     const totalSolvedMedium = calculateTotalSolved(problems, 'Medium');
     const totalSolvedHard = calculateTotalSolved(problems, 'Hard');
 
-    console.log(totalSolvedEasy)
-    console.log(totalSolvedMedium)
-    console.log(totalSolvedHard)
-
-
-    problemToHTML(problems[0])
+    problemToHTML(problems[0], totalSolvedEasy, totalSolvedMedium, totalSolvedHard);
 
   })
   .catch(error => {
@@ -21,9 +16,15 @@ function calculateTotalSolved(problems, difficulty) {
   return problems.filter(problem => problem.difficulty.includes(difficulty) && problem.status === 'Solved').length;
 }
 
-function problemToHTML(problem) {
+function problemToHTML(problem, totalSolvedEasy, totalSolvedMedium, totalSolvedHard) {
 
+  const totalEasy = 57;
+  const totalMedium = 130;
+  const totalHard = 29;
   const patterns = problem.patterns.map(pattern => pattern.name).join(', ');
+  const totalSolved = totalSolvedEasy + totalSolvedMedium + totalSolvedHard;
+  const totalProblems = 217;
+
 
 
   const problemContainer = document.createElement('div');
@@ -53,7 +54,20 @@ function problemToHTML(problem) {
         <button class="generate-btn" onclick="newProblem()">Generate</button>
     `;
 
+  const cardContainer = document.createElement('div');
+  cardContainer.classList.add('card');
+
+  cardContainer.innerHTML = `
+      <h3>Total Problems Solved</h3>
+      <h4>${totalSolved} / ${totalProblems}</h4>
+      <p>Easy: ${totalSolvedEasy} / ${totalEasy}</p>
+      <p>Medium: ${totalSolvedMedium} / ${totalMedium}</p>
+      <p>Hard: ${totalSolvedHard} / ${totalHard}</p>
+      <button class="solved-btn" onclick="redirectToAll('${problem.id}')">View Solved Problems</button>
+  `;
+
   document.body.appendChild(problemContainer);
+  document.body.appendChild(cardContainer);
 
 }
 
