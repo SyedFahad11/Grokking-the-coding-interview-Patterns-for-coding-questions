@@ -1,0 +1,3990 @@
+[
+  {
+    "id": "L69",
+    "title": "Sqrt(x)",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Warmup (extra)"
+      }
+    ],
+    "url": "https://leetcode.com/problems/sqrtx",
+    "tags": [
+      "Math",
+      "Binary Search"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "N924",
+    "title": "Shortest Word Distance",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Warmup (extra)"
+      }
+    ],
+    "url": "https://www.lintcode.com/problem/924",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L345",
+    "title": "Reverse Vowels of a String",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Warmup (extra)"
+      },
+      {
+        "name": "Two Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/reverse-vowels-of-a-string",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1635",
+    "title": "Number of Good Pairs",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Warmup (extra)"
+      }
+    ],
+    "url": "https://leetcode.com/problems/number-of-good-pairs",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Counting"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1960",
+    "title": "Check if the Sentence Is Pangram",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Warmup (extra)"
+      },
+      {
+        "name": "Bitwise Manipulation"
+      },
+      {
+        "name": "Hash Maps"
+      }
+    ],
+    "url": "https://leetcode.com/problems/check-if-the-sentence-is-pangram",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Bit Manipulation",
+      "Bitmask"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L20",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Stacks"
+      }
+    ],
+    "url": "https://leetcode.com/problems/valid-parentheses",
+    "tags": [
+      "String",
+      "Stack",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L232",
+    "title": "Implement Queue using Stacks",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Stacks"
+      }
+    ],
+    "url": "https://leetcode.com/problems/implement-queue-using-stacks",
+    "tags": [
+      "Stack",
+      "Design",
+      "Queue",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L121",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Sliding Window"
+      }
+    ],
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1128",
+    "title": "Remove All Adjacent Duplicates In String",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Stacks"
+      }
+    ],
+    "url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string",
+    "tags": [
+      "String",
+      "Stack"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L3",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Sliding Window"
+      }
+    ],
+    "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L209",
+    "title": "Minimum Size Subarray Sum",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Sliding Window"
+      }
+    ],
+    "url": "https://leetcode.com/problems/minimum-size-subarray-sum",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Sliding Window",
+      "Prefix Sum"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L206",
+    "title": "Reverse Linked List",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "In-place Reversal of a Linked List"
+      }
+    ],
+    "url": "https://leetcode.com/problems/reverse-linked-list",
+    "tags": [
+      "Linked List",
+      "Recursion",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L341",
+    "title": "Flatten Nested List Iterator",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Stacks"
+      }
+    ],
+    "url": "https://leetcode.com/problems/flatten-nested-list-iterator",
+    "tags": [
+      "Stack",
+      "Tree",
+      "Depth-First Search",
+      "Design",
+      "Queue",
+      "Iterator"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L528",
+    "title": "Swapping Nodes in a Linked List",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "In-place Reversal of a Linked List"
+      }
+    ],
+    "url": "https://leetcode.com/problems/swapping-nodes-in-a-linked-list",
+    "tags": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L187",
+    "title": "Repeated DNA Sequences",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Sliding Window"
+      }
+    ],
+    "url": "https://leetcode.com/problems/repeated-dna-sequences",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Bit Manipulation",
+      "Sliding Window",
+      "Rolling Hash",
+      "Hash Function"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L24",
+    "title": "Swap Nodes in Pairs",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "In-place Reversal of a Linked List"
+      }
+    ],
+    "url": "https://leetcode.com/problems/swap-nodes-in-pairs",
+    "tags": [
+      "Linked List",
+      "Recursion",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L88",
+    "title": "Merge Sorted Array",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "K-way merge"
+      }
+    ],
+    "url": "https://leetcode.com/problems/merge-sorted-array",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L378",
+    "title": "Kth Smallest Element in a Sorted Matrix",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "K-way merge"
+      }
+    ],
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Matrix"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L92",
+    "title": "Reverse Linked List II",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "In-place Reversal of a Linked List"
+      }
+    ],
+    "url": "https://leetcode.com/problems/reverse-linked-list-ii",
+    "tags": [
+      "Linked List"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L636",
+    "title": "Exclusive Time of Functions",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Stacks"
+      }
+    ],
+    "url": "https://leetcode.com/problems/exclusive-time-of-functions",
+    "tags": [
+      "Array",
+      "Stack"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L424",
+    "title": "Longest Repeating Character Replacement",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Sliding Window"
+      }
+    ],
+    "url": "https://leetcode.com/problems/longest-repeating-character-replacement",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L141",
+    "title": "Linked List Cycle",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Fast and Slow Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/linked-list-cycle",
+    "tags": [
+      "Hash Table",
+      "Linked List",
+      "Two Pointers",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L373",
+    "title": "Find K Pairs with Smallest Sums",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "K-way merge"
+      }
+    ],
+    "url": "https://leetcode.com/problems/find-k-pairs-with-smallest-sums",
+    "tags": [
+      "Array",
+      "Heap (Priority Queue)"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L202",
+    "title": "Happy Number",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Fast and Slow Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/happy-number",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "Two Pointers"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L143",
+    "title": "Reorder List",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "In-place Reversal of a Linked List"
+      }
+    ],
+    "url": "https://leetcode.com/problems/reorder-list",
+    "tags": [
+      "Linked List",
+      "Two Pointers",
+      "Stack",
+      "Recursion",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1249",
+    "title": "Minimum Remove to Make Valid Parentheses",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Stacks"
+      }
+    ],
+    "url": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses",
+    "tags": [
+      "String",
+      "Stack"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "G2",
+    "title": "Minimum Window Subsequence",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Sliding Window"
+      }
+    ],
+    "url": "https://www.geeksforgeeks.org/problems/minimum-window-subsequence",
+    "tags": [
+      "String",
+      "Sliding Window",
+      "Dynamic Programming"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L234",
+    "title": "Palindrome Linked List",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Fast and Slow Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/palindrome-linked-list",
+    "tags": [
+      "Linked List",
+      "Two Pointers",
+      "Stack",
+      "Recursion",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L908",
+    "title": "Middle of the Linked List",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Fast and Slow Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/middle-of-the-linked-list",
+    "tags": [
+      "Linked List",
+      "Two Pointers",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L23",
+    "title": "Merge k Sorted Lists",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "K-way merge"
+      }
+    ],
+    "url": "https://leetcode.com/problems/merge-k-sorted-lists",
+    "tags": [
+      "Linked List",
+      "Divide and Conquer",
+      "Heap (Priority Queue)",
+      "Merge Sort",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L101",
+    "title": "Symmetric Tree",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Tree Breadth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/symmetric-tree",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L2196",
+    "title": "Reverse Nodes in Even Length Groups",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "In-place Reversal of a Linked List"
+      }
+    ],
+    "url": "https://leetcode.com/problems/reverse-nodes-in-even-length-groups",
+    "tags": [
+      "Linked List"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L224",
+    "title": "Basic Calculator",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Stacks"
+      }
+    ],
+    "url": "https://leetcode.com/problems/basic-calculator",
+    "tags": [
+      "Math",
+      "String",
+      "Stack",
+      "Recursion",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L102",
+    "title": "Binary Tree Level Order Traversal",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Tree Breadth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/binary-tree-level-order-traversal",
+    "tags": [
+      "Tree",
+      "Breadth-First Search",
+      "Binary Tree",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L76",
+    "title": "Minimum Window Substring",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Sliding Window"
+      }
+    ],
+    "url": "https://leetcode.com/problems/minimum-window-substring",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L287",
+    "title": "Find the Duplicate Number",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Fast and Slow Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/find-the-duplicate-number",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Bit Manipulation",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L4",
+    "title": "Median of Two Sorted Arrays",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "K-way merge"
+      }
+    ],
+    "url": "https://leetcode.com/problems/median-of-two-sorted-arrays",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Divide and Conquer",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L103",
+    "title": "Binary Tree Zigzag Level Order Traversal",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Tree Breadth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal",
+    "tags": [
+      "Tree",
+      "Breadth-First Search",
+      "Binary Tree",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L25",
+    "title": "Reverse Nodes in k-Group",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "In-place Reversal of a Linked List"
+      }
+    ],
+    "url": "https://leetcode.com/problems/reverse-nodes-in-k-group",
+    "tags": [
+      "Linked List",
+      "Recursion",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L242",
+    "title": "Valid Anagram",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Knowing What to Track"
+      }
+    ],
+    "url": "https://leetcode.com/problems/valid-anagram",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sorting",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L239",
+    "title": "Sliding Window Maximum",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Sliding Window"
+      }
+    ],
+    "url": "https://leetcode.com/problems/sliding-window-maximum",
+    "tags": [
+      "Array",
+      "Queue",
+      "Sliding Window",
+      "Heap (Priority Queue)",
+      "Monotonic Queue",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L457",
+    "title": "Circular Array Loop",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Fast and Slow Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/circular-array-loop",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L387",
+    "title": "First Unique Character in a String",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Knowing What to Track"
+      }
+    ],
+    "url": "https://leetcode.com/problems/first-unique-character-in-a-string",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Queue",
+      "Counting"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L116",
+    "title": "Populating Next Right Pointers in Each Node",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Tree Breadth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node",
+    "tags": [
+      "Linked List",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L266",
+    "title": "Palindrome Permutation",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Knowing What to Track"
+      }
+    ],
+    "url": "https://leetcode.com/problems/palindrome-permutation",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Bit Manipulation"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L70",
+    "title": "Climbing Stairs",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/climbing-stairs",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Memoization",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L383",
+    "title": "Ransom Note",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Knowing What to Track"
+      }
+    ],
+    "url": "https://leetcode.com/problems/ransom-note",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L338",
+    "title": "Counting Bits",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/counting-bits",
+    "tags": [
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1236",
+    "title": "N-th Tribonacci Number",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/n-th-tribonacci-number",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Memoization"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L125",
+    "title": "Valid Palindrome",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Two Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/valid-palindrome",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L127",
+    "title": "Word Ladder",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Tree Breadth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/word-ladder",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Breadth-First Search",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L680",
+    "title": "Valid Palindrome II",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Two Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/valid-palindrome-ii",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Greedy"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L139",
+    "title": "Word Break",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/word-break",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Trie",
+      "Memoization",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L49",
+    "title": "Group Anagrams",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Knowing What to Track"
+      }
+    ],
+    "url": "https://leetcode.com/problems/group-anagrams",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L151",
+    "title": "Reverse Words in a String",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Two Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/reverse-words-in-a-string",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L268",
+    "title": "Missing Number",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Cyclic Sort"
+      }
+    ],
+    "url": "https://leetcode.com/problems/missing-number",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Binary Search",
+      "Bit Manipulation",
+      "Sorting",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L75",
+    "title": "Sort Colors",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Two Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/sort-colors",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1029",
+    "title": "Vertical Order Traversal of a Binary Tree",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Tree Breadth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree",
+    "tags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L645",
+    "title": "Set Mismatch",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Cyclic Sort"
+      }
+    ],
+    "url": "https://leetcode.com/problems/set-mismatch",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Bit Manipulation",
+      "Sorting"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L322",
+    "title": "Coin Change",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/coin-change",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Breadth-First Search",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L438",
+    "title": "Find All Anagrams in a String",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Knowing What to Track"
+      }
+    ],
+    "url": "https://leetcode.com/problems/find-all-anagrams-in-a-string",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1646",
+    "title": "Kth Missing Positive Number",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Cyclic Sort"
+      }
+    ],
+    "url": "https://leetcode.com/problems/kth-missing-positive-number",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L41",
+    "title": "First Missing Positive",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Cyclic Sort"
+      }
+    ],
+    "url": "https://leetcode.com/problems/first-missing-positive",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L19",
+    "title": "Remove Nth Node From End of List",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Two Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list",
+    "tags": [
+      "Linked List",
+      "Two Pointers",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L543",
+    "title": "Diameter of Binary Tree",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Tree Depth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/diameter-of-binary-tree",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L104",
+    "title": "Maximum Depth of Binary Tree",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Tree Depth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L91",
+    "title": "Decode Ways",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/decode-ways",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L348",
+    "title": "Design Tic-Tac-Toe",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Knowing What to Track"
+      }
+    ],
+    "url": "https://leetcode.com/problems/design-tic-tac-toe",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Design",
+      "Matrix",
+      "Simulation"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L108",
+    "title": "Convert Sorted Array to Binary Search Tree",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Tree Depth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree",
+    "tags": [
+      "Array",
+      "Divide and Conquer",
+      "Tree",
+      "Binary Search Tree",
+      "Binary Tree",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L136",
+    "title": "Single Number",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Bitwise Manipulation"
+      }
+    ],
+    "url": "https://leetcode.com/problems/single-number",
+    "tags": [
+      "Array",
+      "Bit Manipulation",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L16",
+    "title": "3Sum Closest",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Two Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/3sum-closest",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L226",
+    "title": "Invert Binary Tree",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Tree Depth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/invert-binary-tree",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L190",
+    "title": "Reverse Bits",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Bitwise Manipulation"
+      }
+    ],
+    "url": "https://leetcode.com/problems/reverse-bits",
+    "tags": [
+      "Divide and Conquer",
+      "Bit Manipulation",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L39",
+    "title": "Combination Sum",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/combination-sum",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L2237",
+    "title": "Longest Palindrome by Concatenating Two Letter Words",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Knowing What to Track"
+      }
+    ],
+    "url": "https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Counting"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L389",
+    "title": "Find the Difference",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Bitwise Manipulation"
+      }
+    ],
+    "url": "https://leetcode.com/problems/find-the-difference",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Bit Manipulation",
+      "Sorting"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1054",
+    "title": "Complement of Base 10 Integer",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Bitwise Manipulation"
+      }
+    ],
+    "url": "https://leetcode.com/problems/complement-of-base-10-integer",
+    "tags": [
+      "Bit Manipulation"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L733",
+    "title": "Flood Fill",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Backtracking"
+      }
+    ],
+    "url": "https://leetcode.com/problems/flood-fill",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L236",
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Tree Depth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L79",
+    "title": "Word Search",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Backtracking"
+      }
+    ],
+    "url": "https://leetcode.com/problems/word-search",
+    "tags": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Matrix",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L647",
+    "title": "Palindromic Substrings",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/palindromic-substrings",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Blind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L931",
+    "title": "Maximum Frequency Stack",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Knowing What to Track"
+      }
+    ],
+    "url": "https://leetcode.com/problems/maximum-frequency-stack",
+    "tags": [
+      "Hash Table",
+      "Stack",
+      "Design",
+      "Ordered Set",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L93",
+    "title": "Restore IP Addresses",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Backtracking"
+      }
+    ],
+    "url": "https://leetcode.com/problems/restore-ip-addresses",
+    "tags": [
+      "String",
+      "Backtracking"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L861",
+    "title": "Flipping an Image",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Bitwise Manipulation"
+      }
+    ],
+    "url": "https://leetcode.com/problems/flipping-an-image",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Bit Manipulation",
+      "Matrix",
+      "Simulation"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L337",
+    "title": "House Robber III",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Backtracking"
+      }
+    ],
+    "url": "https://leetcode.com/problems/house-robber-iii",
+    "tags": [
+      "Dynamic Programming",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L98",
+    "title": "Validate Binary Search Tree",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Tree Depth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/validate-binary-search-tree",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L205",
+    "title": "Isomorphic Strings",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Hash Maps"
+      }
+    ],
+    "url": "https://leetcode.com/problems/isomorphic-strings",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L152",
+    "title": "Maximum Product Subarray",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/maximum-product-subarray",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L496",
+    "title": "Next Greater Element I",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Hash Maps"
+      }
+    ],
+    "url": "https://leetcode.com/problems/next-greater-element-i",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Stack",
+      "Monotonic Stack"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L409",
+    "title": "Longest Palindrome",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Hash Maps"
+      }
+    ],
+    "url": "https://leetcode.com/problems/longest-palindrome",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L260",
+    "title": "Single Number III",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Bitwise Manipulation"
+      }
+    ],
+    "url": "https://leetcode.com/problems/single-number-iii",
+    "tags": [
+      "Array",
+      "Bit Manipulation"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L473",
+    "title": "Matchsticks to Square",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Backtracking"
+      }
+    ],
+    "url": "https://leetcode.com/problems/matchsticks-to-square",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking",
+      "Bit Manipulation",
+      "Bitmask"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L199",
+    "title": "Binary Tree Right Side View",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Tree Depth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/binary-tree-right-side-view",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L359",
+    "title": "Logger Rate Limiter",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Hash Maps"
+      }
+    ],
+    "url": "https://leetcode.com/problems/logger-rate-limiter",
+    "tags": [
+      "Hash Table",
+      "Design",
+      "Data Stream"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L416",
+    "title": "Partition Equal Subset Sum",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/partition-equal-subset-sum",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L278",
+    "title": "First Bad Version",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Modified Binary Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/first-bad-version",
+    "tags": [
+      "Binary Search",
+      "Interactive",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L792",
+    "title": "Binary Search",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Modified Binary Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/binary-search",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "N659",
+    "title": "Encode and Decode Strings",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Bitwise Manipulation"
+      }
+    ],
+    "url": "https://www.lintcode.com/problem/659/",
+    "tags": [
+      "Array",
+      "String",
+      "Design"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L37",
+    "title": "Sudoku Solver",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Backtracking"
+      }
+    ],
+    "url": "https://leetcode.com/problems/sudoku-solver",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Backtracking",
+      "Matrix",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L114",
+    "title": "Flatten Binary Tree to Linked List",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Tree Depth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list",
+    "tags": [
+      "Linked List",
+      "Stack",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L817",
+    "title": "Design HashMap",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Hash Maps"
+      }
+    ],
+    "url": "https://leetcode.com/problems/design-hashmap",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Hash Function"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L213",
+    "title": "House Robber II",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/house-robber-ii",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Blind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L33",
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Modified Binary Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L658",
+    "title": "Find K Closest Elements",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Modified Binary Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/find-k-closest-elements",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Sliding Window",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L789",
+    "title": "Kth Largest Element in a Stream",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Top K Elements"
+      }
+    ],
+    "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream",
+    "tags": [
+      "Tree",
+      "Design",
+      "Binary Search Tree",
+      "Heap (Priority Queue)",
+      "Binary Tree",
+      "Data Stream"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L51",
+    "title": "N-Queens",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Backtracking"
+      }
+    ],
+    "url": "https://leetcode.com/problems/n-queens",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L105",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Tree Depth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Tree",
+      "Binary Tree",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L166",
+    "title": "Fraction to Recurring Decimal",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Hash Maps"
+      }
+    ],
+    "url": "https://leetcode.com/problems/fraction-to-recurring-decimal",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "String"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L542",
+    "title": "01 Matrix",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/01-matrix",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Breadth-First Search",
+      "Matrix",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L81",
+    "title": "Search in Rotated Sorted Array II",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Modified Binary Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L215",
+    "title": "Kth Largest Element in an Array",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Top K Elements"
+      }
+    ],
+    "url": "https://leetcode.com/problems/kth-largest-element-in-an-array",
+    "tags": [
+      "Array",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Quickselect",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L347",
+    "title": "Top K Frequent Elements",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Top K Elements"
+      }
+    ],
+    "url": "https://leetcode.com/problems/top-k-frequent-elements",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting",
+      "Quickselect",
+      "Blind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L692",
+    "title": "Top K Frequent Words",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Top K Elements"
+      }
+    ],
+    "url": "https://leetcode.com/problems/top-k-frequent-words",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Trie",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L230",
+    "title": "Kth Smallest Element in a BST",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Tree Depth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L990",
+    "title": "Verifying an Alien Dictionary",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Topological Sort"
+      }
+    ],
+    "url": "https://leetcode.com/problems/verifying-an-alien-dictionary",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1250",
+    "title": "Longest Common Subsequence",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/longest-common-subsequence",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L540",
+    "title": "Single Element in a Sorted Array",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Modified Binary Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/single-element-in-a-sorted-array",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L207",
+    "title": "Course Schedule",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Topological Sort"
+      }
+    ],
+    "url": "https://leetcode.com/problems/course-schedule",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L778",
+    "title": "Reorganize String",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Top K Elements"
+      }
+    ],
+    "url": "https://leetcode.com/problems/reorganize-string",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Counting"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L210",
+    "title": "Course Schedule II",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Topological Sort"
+      }
+    ],
+    "url": "https://leetcode.com/problems/course-schedule-ii",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L297",
+    "title": "Serialize and Deserialize Binary Tree",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Tree Depth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree",
+    "tags": [
+      "String",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Design",
+      "Binary Tree",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L2220",
+    "title": "Find All Possible Recipes from Given Supplies",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Topological Sort"
+      }
+    ],
+    "url": "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Graph",
+      "Topological Sort"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "G1",
+    "title": "0/1 Knapsack",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/",
+    "tags": [
+      "Dynamic Programming",
+      "Greedy"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L912",
+    "title": "Random Pick with Weight",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Modified Binary Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/random-pick-with-weight",
+    "tags": [
+      "Array",
+      "Math",
+      "Binary Search",
+      "Prefix Sum",
+      "Randomized",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L200",
+    "title": "Number of Islands",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Union Find"
+      }
+    ],
+    "url": "https://leetcode.com/problems/number-of-islands",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1014",
+    "title": "K Closest Points to Origin",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Top K Elements"
+      }
+    ],
+    "url": "https://leetcode.com/problems/k-closest-points-to-origin",
+    "tags": [
+      "Array",
+      "Math",
+      "Divide and Conquer",
+      "Geometry",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Quickselect",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L128",
+    "title": "Longest Consecutive Sequence",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Union Find"
+      }
+    ],
+    "url": "https://leetcode.com/problems/longest-consecutive-sequence",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Union Find",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L124",
+    "title": "Binary Tree Maximum Path Sum",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Tree Depth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum",
+    "tags": [
+      "Dynamic Programming",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L269",
+    "title": "Alien Dictionary",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Topological Sort"
+      }
+    ],
+    "url": "https://leetcode.com/problems/alien-dictionary",
+    "tags": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Topological Sort",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L140",
+    "title": "Word Break II",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Dynamic Programming"
+      }
+    ],
+    "url": "https://leetcode.com/problems/word-break-ii",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Backtracking",
+      "Trie",
+      "Memoization"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L721",
+    "title": "Accounts Merge",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Union Find"
+      }
+    ],
+    "url": "https://leetcode.com/problems/accounts-merge",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Sorting",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L399",
+    "title": "Evaluate Division",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Union Find"
+      }
+    ],
+    "url": "https://leetcode.com/problems/evaluate-division",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph",
+      "Shortest Path"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L146",
+    "title": "LRU Cache",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Custom Data Structures"
+      }
+    ],
+    "url": "https://leetcode.com/problems/lru-cache",
+    "tags": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L380",
+    "title": "Insert Delete GetRandom O(1)",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Custom Data Structures"
+      }
+    ],
+    "url": "https://leetcode.com/problems/insert-delete-getrandom-o1",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Design",
+      "Randomized",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L56",
+    "title": "Merge Intervals",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Merge Intervals"
+      }
+    ],
+    "url": "https://leetcode.com/problems/merge-intervals",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "E1",
+    "title": "Compilation Order",
+    "difficulty": "Absent ❗",
+    "patterns": [
+      {
+        "name": "Topological Sort"
+      }
+    ],
+    "url": "https://www.educative.io/courses/grokking-coding-interview-patterns-java/compilation-order",
+    "tags": [],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L155",
+    "title": "Min Stack",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Custom Data Structures"
+      }
+    ],
+    "url": "https://leetcode.com/problems/min-stack",
+    "tags": [
+      "Stack",
+      "Design",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L253",
+    "title": "Meeting Rooms II",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Merge Intervals"
+      }
+    ],
+    "url": "https://leetcode.com/problems/meeting-rooms-ii",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Prefix Sum",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L684",
+    "title": "Redundant Connection",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Union Find"
+      }
+    ],
+    "url": "https://leetcode.com/problems/redundant-connection",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1146",
+    "title": "Snapshot Array",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Custom Data Structures"
+      }
+    ],
+    "url": "https://leetcode.com/problems/snapshot-array",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Design"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L57",
+    "title": "Insert Interval",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Merge Intervals"
+      }
+    ],
+    "url": "https://leetcode.com/problems/insert-interval",
+    "tags": [
+      "Array",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L621",
+    "title": "Task Scheduler",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Merge Intervals"
+      }
+    ],
+    "url": "https://leetcode.com/problems/task-scheduler",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Counting",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L54",
+    "title": "Spiral Matrix",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Matrices"
+      }
+    ],
+    "url": "https://leetcode.com/problems/spiral-matrix",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Simulation",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L48",
+    "title": "Rotate Image",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Matrices"
+      }
+    ],
+    "url": "https://leetcode.com/problems/rotate-image",
+    "tags": [
+      "Array",
+      "Math",
+      "Matrix",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L17",
+    "title": "Letter Combinations of a Phone Number",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Subsets"
+      }
+    ],
+    "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Backtracking",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L984",
+    "title": "Most Stones Removed with Same Row or Column",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Union Find"
+      }
+    ],
+    "url": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column",
+    "tags": [
+      "Hash Table",
+      "Depth-First Search",
+      "Union Find",
+      "Graph"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1023",
+    "title": "Time Based Key-Value Store",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Custom Data Structures"
+      }
+    ],
+    "url": "https://leetcode.com/problems/time-based-key-value-store",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Binary Search",
+      "Design",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L73",
+    "title": "Set Matrix Zeroes",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Matrices"
+      }
+    ],
+    "url": "https://leetcode.com/problems/set-matrix-zeroes",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Matrix",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1028",
+    "title": "Interval List Intersections",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Merge Intervals"
+      }
+    ],
+    "url": "https://leetcode.com/problems/interval-list-intersections",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1324",
+    "title": "Where Will the Ball Fall",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Matrices"
+      }
+    ],
+    "url": "https://leetcode.com/problems/where-will-the-ball-fall",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L46",
+    "title": "Permutations",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Subsets"
+      }
+    ],
+    "url": "https://leetcode.com/problems/permutations",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L22",
+    "title": "Generate Parentheses",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Subsets"
+      }
+    ],
+    "url": "https://leetcode.com/problems/generate-parentheses",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L999",
+    "title": "Regions Cut By Slashes",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Union Find"
+      }
+    ],
+    "url": "https://leetcode.com/problems/regions-cut-by-slashes",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L460",
+    "title": "LFU Cache",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Custom Data Structures"
+      }
+    ],
+    "url": "https://leetcode.com/problems/lfu-cache",
+    "tags": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L560",
+    "title": "Subarray Sum Equals K",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Subsets"
+      }
+    ],
+    "url": "https://leetcode.com/problems/subarray-sum-equals-k",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L761",
+    "title": "Employee Free Time",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Merge Intervals"
+      }
+    ],
+    "url": "https://leetcode.com/problems/employee-free-time",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L208",
+    "title": "Implement Trie (Prefix Tree)",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Trie"
+      }
+    ],
+    "url": "https://leetcode.com/problems/implement-trie-prefix-tree",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Design",
+      "Trie",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L211",
+    "title": "Design Add and Search Words Data Structure",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Trie"
+      }
+    ],
+    "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure",
+    "tags": [
+      "String",
+      "Depth-First Search",
+      "Design",
+      "Trie",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L78",
+    "title": "Subsets",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Subsets"
+      }
+    ],
+    "url": "https://leetcode.com/problems/subsets",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Bit Manipulation",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L960",
+    "title": "Minimize Malware Spread",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Union Find"
+      }
+    ],
+    "url": "https://leetcode.com/problems/minimize-malware-spread",
+    "tags": [
+      "Hash Table",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L386",
+    "title": "Lexicographical Numbers",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Trie"
+      }
+    ],
+    "url": "https://leetcode.com/problems/lexicographical-numbers",
+    "tags": [
+      "Depth-First Search",
+      "Trie"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L133",
+    "title": "Clone Graph",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Graphs"
+      }
+    ],
+    "url": "https://leetcode.com/problems/clone-graph",
+    "tags": [
+      "Hash Table",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L261",
+    "title": "Graph Valid Tree",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Graphs"
+      }
+    ],
+    "url": "https://leetcode.com/problems/graph-valid-tree",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1397",
+    "title": "Search Suggestions System",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Trie"
+      }
+    ],
+    "url": "https://leetcode.com/problems/search-suggestions-system",
+    "tags": [
+      "Array",
+      "String",
+      "Binary Search",
+      "Trie",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L744",
+    "title": "Network Delay Time",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Graphs"
+      }
+    ],
+    "url": "https://leetcode.com/problems/network-delay-time",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph",
+      "Heap (Priority Queue)",
+      "Shortest Path"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L45",
+    "title": "Jump Game II",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Greedy Techniques"
+      }
+    ],
+    "url": "https://leetcode.com/problems/jump-game-ii",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L2101",
+    "title": "Last Day Where You Can Still Cross",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Union Find"
+      }
+    ],
+    "url": "https://leetcode.com/problems/last-day-where-you-can-still-cross",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Matrix"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L55",
+    "title": "Jump Game",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Greedy Techniques"
+      }
+    ],
+    "url": "https://leetcode.com/problems/jump-game",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L2218",
+    "title": "Paths in Maze That Lead to Same Room",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Graphs"
+      }
+    ],
+    "url": "https://leetcode.com/problems/paths-in-maze-that-lead-to-same-room",
+    "tags": [
+      "Graph"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L134",
+    "title": "Gas Station",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Greedy Techniques"
+      }
+    ],
+    "url": "https://leetcode.com/problems/gas-station",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L648",
+    "title": "Replace Words",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Trie"
+      }
+    ],
+    "url": "https://leetcode.com/problems/replace-words",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Trie"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1095",
+    "title": "Two City Scheduling",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Greedy Techniques"
+      }
+    ],
+    "url": "https://leetcode.com/problems/two-city-scheduling",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L295",
+    "title": "Find Median from Data Stream",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Two Heaps"
+      }
+    ],
+    "url": "https://leetcode.com/problems/find-median-from-data-stream",
+    "tags": [
+      "Two Pointers",
+      "Design",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Data Stream",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L480",
+    "title": "Sliding Window Median",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Two Heaps"
+      }
+    ],
+    "url": "https://leetcode.com/problems/sliding-window-median",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Heap (Priority Queue)"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L833",
+    "title": "Bus Routes",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Graphs"
+      }
+    ],
+    "url": "https://leetcode.com/problems/bus-routes",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Breadth-First Search",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L212",
+    "title": "Word Search II",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Trie"
+      }
+    ],
+    "url": "https://leetcode.com/problems/word-search-ii",
+    "tags": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Trie",
+      "Matrix",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L502",
+    "title": "IPO",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Two Heaps"
+      }
+    ],
+    "url": "https://leetcode.com/problems/ipo",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L917",
+    "title": "Boats to Save People",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Greedy Techniques"
+      }
+    ],
+    "url": "https://leetcode.com/problems/boats-to-save-people",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Sorting"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L902",
+    "title": "Minimum Number of Refueling Stops",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Greedy Techniques"
+      }
+    ],
+    "url": "https://leetcode.com/problems/minimum-number-of-refueling-stops",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy",
+      "Heap (Priority Queue)"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1",
+    "title": "Two Sum",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/two-sum",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L169",
+    "title": "Majority Element",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/majority-element",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Counting",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L217",
+    "title": "Contains Duplicate",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/contains-duplicate",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L572",
+    "title": "Subtree of Another Tree",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/subtree-of-another-tree",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "String Matching",
+      "Binary Tree",
+      "Hash Function",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L191",
+    "title": "Number of 1 Bits",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/number-of-1-bits",
+    "tags": [
+      "Divide and Conquer",
+      "Bit Manipulation",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L100",
+    "title": "Same Tree",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/same-tree",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L67",
+    "title": "Add Binary",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/add-binary",
+    "tags": [
+      "Math",
+      "String",
+      "Bit Manipulation",
+      "Simulation",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L252",
+    "title": "Meeting Rooms",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/meeting-rooms",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L448",
+    "title": "Find All Numbers Disappeared in an Array",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L890",
+    "title": "Lemonade Change",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/lemonade-change",
+    "tags": [
+      "Array",
+      "Greedy"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L53",
+    "title": "Maximum Subarray",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/maximum-subarray",
+    "tags": [
+      "Array",
+      "Divide and Conquer",
+      "Dynamic Programming",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L238",
+    "title": "Product of Array Except Self",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/product-of-array-except-self",
+    "tags": [
+      "Array",
+      "Prefix Sum",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L5",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/longest-palindromic-substring",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L11",
+    "title": "Container With Most Water",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/container-with-most-water",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L198",
+    "title": "House Robber",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/house-robber",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L43",
+    "title": "Multiply Strings",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/multiply-strings",
+    "tags": [
+      "Math",
+      "String",
+      "Simulation"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L62",
+    "title": "Unique Paths",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/unique-paths",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Combinatorics",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L547",
+    "title": "Number of Provinces",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/number-of-provinces",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L153",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L300",
+    "title": "Longest Increasing Subsequence",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/longest-increasing-subsequence",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L150",
+    "title": "Evaluate Reverse Polish Notation",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation",
+    "tags": [
+      "Array",
+      "Math",
+      "Stack",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L18",
+    "title": "4Sum",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/4sum",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L47",
+    "title": "Permutations II",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/permutations-ii",
+    "tags": [
+      "Array",
+      "Backtracking"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L148",
+    "title": "Sort List",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/sort-list",
+    "tags": [
+      "Linked List",
+      "Two Pointers",
+      "Divide and Conquer",
+      "Sorting",
+      "Merge Sort",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L442",
+    "title": "Find All Duplicates in an Array",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/find-all-duplicates-in-an-array",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L142",
+    "title": "Linked List Cycle II",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/linked-list-cycle-ii",
+    "tags": [
+      "Hash Table",
+      "Linked List",
+      "Two Pointers"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L323",
+    "title": "Number of Connected Components in an Undirected Graph",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union Find",
+      "Graph",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L417",
+    "title": "Pacific Atlantic Water Flow",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/pacific-atlantic-water-flow",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L435",
+    "title": "Non-overlapping Intervals",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/non-overlapping-intervals",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy",
+      "Sorting",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L735",
+    "title": "Asteroid Collision",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/asteroid-collision",
+    "tags": [
+      "Array",
+      "Stack",
+      "Simulation",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L371",
+    "title": "Sum of Two Integers",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/sum-of-two-integers",
+    "tags": [
+      "Math",
+      "Bit Manipulation",
+      "Blind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L881",
+    "title": "Loud and Rich",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/loud-and-rich",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Graph",
+      "Topological Sort"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1036",
+    "title": "Rotting Oranges",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/rotting-oranges",
+    "tags": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L971",
+    "title": "Shortest Bridge",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/shortest-bridge",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L2017",
+    "title": "Minimum Number of Flips to Make the Binary String Alternating",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Greedy",
+      "Sliding Window"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L1125",
+    "title": "Design File System",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/design-file-system",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Design",
+      "Trie"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L84",
+    "title": "Largest Rectangle in Histogram",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/largest-rectangle-in-histogram",
+    "tags": [
+      "Array",
+      "Stack",
+      "Monotonic Stack",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  },
+  {
+    "id": "L588",
+    "title": "Design In-Memory File System",
+    "difficulty": "Hard 🔥",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/design-in-memory-file-system",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Design",
+      "Trie",
+      "Grind75"
+    ],
+    "status": "UnSolved"
+  }
+]
