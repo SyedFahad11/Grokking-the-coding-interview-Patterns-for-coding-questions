@@ -5,12 +5,34 @@ fetchDataFromFile('./problems.json')
     const totalSolvedMedium = calculateTotalSolved(problems, 'Medium');
     const totalSolvedHard = calculateTotalSolved(problems, 'Hard');
 
-    problemToHTML(problems[0], totalSolvedEasy, totalSolvedMedium, totalSolvedHard);
+    ind = Math.round(Math.random() * 217); // Generate initial index
+    var count = 0;
+    while (problems[ind].status === "Solved") {
+      if (count > 217) {
+        ind = -1;
+        break;
+      }
+
+      ind = Math.round(Math.random() * 217);
+      count++;
+    }
+
+
+    if (ind === -1) {
+
+
+    }
+    else {
+      problemToHTML(problems[ind], totalSolvedEasy, totalSolvedMedium, totalSolvedHard);
+    }
+
+    console.log("Loaded Successfully!")
 
   })
   .catch(error => {
     console.error('Error:', error);
   });
+
 
 function calculateTotalSolved(problems, difficulty) {
   return problems.filter(problem => problem.difficulty.includes(difficulty) && problem.status === 'Solved').length;
