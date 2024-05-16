@@ -50,3 +50,21 @@ body {
   margin-right: 10px;
 }
 
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  max-height: 250px;
+}
+
+.card h2 {
+  color: #333;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
