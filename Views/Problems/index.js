@@ -1,12 +1,25 @@
 fetchDataFromFile('./problems.json')
   .then(problems => {
-    console.log(problems[0]);
+
+    const totalSolvedEasy = calculateTotalSolved(problems, 'Easy');
+    const totalSolvedMedium = calculateTotalSolved(problems, 'Medium');
+    const totalSolvedHard = calculateTotalSolved(problems, 'Hard');
+
+    console.log(totalSolvedEasy)
+    console.log(totalSolvedMedium)
+    console.log(totalSolvedHard)
+
+
     problemToHTML(problems[0])
 
   })
   .catch(error => {
     console.error('Error:', error);
   });
+
+function calculateTotalSolved(problems, difficulty) {
+  return problems.filter(problem => problem.difficulty.includes(difficulty) && problem.status === 'Solved').length;
+}
 
 function problemToHTML(problem) {
 
