@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #ccc; /* Grey color */
+  background-color: #ccc;
+
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -10,7 +11,7 @@ body {
 .card {
   display: inline-block;
   vertical-align: top;
-  /* Align both divs to the top */
+
 }
 
 .problem-container {
@@ -50,6 +51,8 @@ body {
   margin-right: 10px;
 }
 
+
+
 .card {
   background-color: #fff;
   border-radius: 5px;
@@ -68,3 +71,81 @@ body {
   margin: 5px 0;
 }
 
+.hidden-section {
+  display: none;
+}
+
+
+.solved-btn {
+  padding: 14px 20px;
+  background-color: #ffea00;
+  color:'black';
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.solved {
+  padding: 8px 20px;
+  background-color: #076907;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.show-btn {
+  padding: 8px 10px;
+  background-color: #717070;
+  color: #f8f8f8;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+  .view-solved-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.view-solved-btn:hover {
+  background-color: #0056b3;
+}
+.problem-container button:hover {
+  background-color: #c93232;
+}
+
+.card button:hover {
+  background-color: #c93232;
+}
+
+.all-solved-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.all-solved-container h2 {
+  color: #333;
+}
+
+.all-solved-container p {
+  color: #666;
+}
+
+.generate-btn {
+  padding: 14px 30px;
+  border: thin solid;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+}
