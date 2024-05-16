@@ -24,6 +24,51 @@ app.get('/solved', (req, res) => {
   res.sendFile(path.join(__dirname, 'views/Solved/index.html'));
 })
 
+app.post("/updateStatus", async (req, res) => {
+
+  const problemId = req.body.problemId;
+
+  updateStatusAndWrite(problemId)
+    .then(() => {
+      console.log('Status updated and data written to files successfully');
+    })
+    .catch(error => {
+      console.error('Error updating status and writing data:', error);
+    });
+
+  res.redirect('/');
+
+  async function updateStatusAndWrite(problemId) {
+    try {
+      const problems = await read('./data/problems.json');
+
+      const problemIndex = problems.findIndex(problem => problem.id === problemId);
+      if (problemIndex === -1) {
+        throw new Error('Problem not found');
+      }
+
+      problems[problemIndex].status = 'Solved';
+
+      await write('./data/problems.json', problems);
+
+      const solvedData = await read('./data/solved.json');
+
+      const newData = { ...problems[problemIndex] };
+      solvedData.push(newData);
+
+      await write('./data/solved.json', solvedData);
+
+
+    } catch (error) {
+      console.error('Error updating status and writing data:', error);
+      throw error;
+    }
+  }
+
+
+
+
+})
 async function read(file) {
   try {
     const data = await fs.readFile(file, 'utf8');
@@ -50,7 +95,7 @@ async function write(filePath, data) {
 
 
 
-const port=5000;
+const port = 5000;
 app.listen(port, function () {
   console.log(`Server started on port ${port}`);
 });
