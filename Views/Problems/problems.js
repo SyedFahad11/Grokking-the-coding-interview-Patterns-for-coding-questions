@@ -5,7 +5,7 @@ fetchDataFromFile('./problems.json')
     const totalSolvedMedium = calculateTotalSolved(problems, 'Medium');
     const totalSolvedHard = calculateTotalSolved(problems, 'Hard');
 
-    ind = Math.round(Math.random() * 5); // Generate initial index
+    ind = Math.round(Math.random() * 217); // Generate initial index
     var count = 0;
     while (problems[ind].status === "Solved") {
       if (count > 217) {
@@ -13,7 +13,7 @@ fetchDataFromFile('./problems.json')
         break;
       }
 
-      ind = Math.round(Math.random() * 5);
+      ind = Math.round(Math.random() * 217);
       count++;
     }
 
