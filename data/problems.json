@@ -144,7 +144,7 @@
       "Blind75",
       "Grind75"
     ],
-    "status": "UnSolved"
+    "status": "Solved"
   },
   {
     "id": "L1128",
@@ -626,7 +626,7 @@
       "Blind75",
       "Grind75"
     ],
-    "status": "UnSolved"
+    "status": "Solved"
   },
   {
     "id": "L287",
@@ -955,7 +955,7 @@
       "Blind75",
       "Grind75"
     ],
-    "status": "UnSolved"
+    "status": "Solved"
   },
   {
     "id": "L49",
@@ -1068,7 +1068,7 @@
       "Bit Manipulation",
       "Sorting"
     ],
-    "status": "UnSolved"
+    "status": "Solved"
   },
   {
     "id": "L322",
@@ -1286,7 +1286,7 @@
       "Sorting",
       "Grind75"
     ],
-    "status": "UnSolved"
+    "status": "Solved"
   },
   {
     "id": "L226",
@@ -2145,7 +2145,7 @@
       "Blind75",
       "Grind75"
     ],
-    "status": "UnSolved"
+    "status": "Solved"
   },
   {
     "id": "L778",
@@ -2386,7 +2386,7 @@
       "Trie",
       "Memoization"
     ],
-    "status": "UnSolved"
+    "status": "Solved"
   },
   {
     "id": "L721",
@@ -2773,7 +2773,7 @@
       "Backtracking",
       "Grind75"
     ],
-    "status": "UnSolved"
+    "status": "Solved"
   },
   {
     "id": "L22",
@@ -3073,7 +3073,7 @@
       "Union Find",
       "Matrix"
     ],
-    "status": "UnSolved"
+    "status": "Solved"
   },
   {
     "id": "L55",
@@ -3092,7 +3092,7 @@
       "Blind75",
       "Grind75"
     ],
-    "status": "UnSolved"
+    "status": "Solved"
   },
   {
     "id": "L2218",
@@ -3585,7 +3585,7 @@
       "String",
       "Simulation"
     ],
-    "status": "UnSolved"
+    "status": "Solved"
   },
   {
     "id": "L62",
@@ -3876,7 +3876,7 @@
       "Graph",
       "Topological Sort"
     ],
-    "status": "UnSolved"
+    "status": "Solved"
   },
   {
     "id": "L1036",
