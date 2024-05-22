@@ -34,6 +34,9 @@ const patterns = {
     name: "7-Stacks",
 
   },
+  Monotonic_Stacks:{
+    name:"8-Montonic Stack"
+  },
 
 
 
@@ -107,18 +110,26 @@ const patterns = {
 
   },
 
+  Ordered_Set:{
+    name:"26-Ordered Set"
+  },
+
+  Prefix_Sum:{
+    name:"27-Prefix Sum"
+  },
+
 
 
   KnowingWhatToTrack: {
-    name: "Knowing What to Track",
+    name: "28-Knowing What to Track",
 
   },
   CustomDataStructures: {
-    name: "Custom Data Structures",
+    name: "29-Custom Data Structures",
 
   },
   ChallengeYourself: {
-    name: "Challenge Yourself",
+    name: "30-Challenge Yourself",
 
   },
 };
