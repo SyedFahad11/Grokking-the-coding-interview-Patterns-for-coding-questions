@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "L338",
+
+    "patterns": [
+      {
+        "name": "21-Dynamic Programming"
+      }
+    ]
+
+  },
+  {
+    "id": "L2196",
+
+    "patterns": [
+      {
+        "name": "6-In-place Reversal of a Linked List"
+      }
+    ]
+
+  }
+]

@@ -66,8 +66,9 @@ function redirectToAll(problemId) {
 function viewSolvedAfterAllSolved() {
   window.location.href = "/solved";
 }
-function topicsSolved(){
-  window.location.href="/topics?id=${problemId}";
+
+function topicsSolved(problemId){
+  window.location.href=`/topics?id=${problemId}`;
 }
 
 function generateAllSolvedHTML() {
@@ -131,7 +132,7 @@ function problemToHTML(problem, totalSolvedEasy, totalSolvedMedium, totalSolvedH
       <p>Medium: ${totalSolvedMedium} / ${totalMedium}</p>
       <p>Hard: ${totalSolvedHard} / ${totalHard}</p>
       <button class="solved-btn" onclick="redirectToAll('${problem.id}')">View Solved Problems</button>
-      <button class="solved-btn" onclick="topicsSolved()">Topics Solved</button>
+      <button class="solved-btn" onclick="topicsSolved('${problem.id}')">Topics Solved</button>
   `;
 
   document.body.appendChild(problemContainer);
