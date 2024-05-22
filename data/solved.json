@@ -1,1 +1,158 @@
-[]
+[
+  {
+    "id": "L20",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "7-Stacks"
+      }
+    ],
+    "url": "https://leetcode.com/problems/valid-parentheses",
+    "tags": [
+      "String",
+      "Stack",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "Solved",
+    "date": "22 May 2024 | 01:05 PM"
+  },
+  {
+    "id": "L1635",
+    "title": "Number of Good Pairs",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "0-Warmup (extra)"
+      }
+    ],
+    "url": "https://leetcode.com/problems/number-of-good-pairs",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Counting"
+    ],
+    "status": "Solved",
+    "date": "22 May 2024 | 01:05 PM"
+  },
+  {
+    "id": "L1635",
+    "title": "Number of Good Pairs",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "0-Warmup (extra)"
+      }
+    ],
+    "url": "https://leetcode.com/problems/number-of-good-pairs",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Counting"
+    ],
+    "status": "Solved",
+    "date": "22 May 2024 | 01:05 PM"
+  },
+  {
+    "id": "L1960",
+    "title": "Check if the Sentence Is Pangram",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "0-Warmup (extra)"
+      },
+      {
+        "name": "17-Bitwise Manipulation"
+      },
+      {
+        "name": "9-Hash Maps"
+      }
+    ],
+    "url": "https://leetcode.com/problems/check-if-the-sentence-is-pangram",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Bit Manipulation",
+      "Bitmask"
+    ],
+    "status": "Solved",
+    "date": "22 May 2024 | 01:05 PM"
+  },
+  {
+    "id": "L345",
+    "title": "Reverse Vowels of a String",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "0-Warmup (extra)"
+      },
+      {
+        "name": "1-Two Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/reverse-vowels-of-a-string",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "status": "Solved",
+    "date": "22 May 2024 | 01:05 PM"
+  },
+  {
+    "id": "L345",
+    "title": "Reverse Vowels of a String",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "0-Warmup (extra)"
+      },
+      {
+        "name": "1-Two Pointers"
+      }
+    ],
+    "url": "https://leetcode.com/problems/reverse-vowels-of-a-string",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "status": "Solved",
+    "date": "22 May 2024 | 01:05 PM"
+  },
+  {
+    "id": "N924",
+    "title": "Shortest Word Distance",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "0-Warmup (extra)"
+      }
+    ],
+    "url": "https://www.lintcode.com/problem/924",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "status": "Solved",
+    "date": "22 May 2024 | 01:05 PM"
+  },
+  {
+    "id": "L69",
+    "title": "Sqrt(x)",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "0-Warmup (extra)"
+      }
+    ],
+    "url": "https://leetcode.com/problems/sqrtx",
+    "tags": [
+      "Math",
+      "Binary Search"
+    ],
+    "status": "Solved",
+    "date": "22 May 2024 | 01:05 PM"
+  }
+]

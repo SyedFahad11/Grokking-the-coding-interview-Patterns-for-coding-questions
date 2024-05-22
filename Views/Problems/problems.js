@@ -5,7 +5,7 @@ fetchDataFromFile('./problems.json')
     const totalSolvedMedium = calculateTotalSolved(problems, 'Medium');
     const totalSolvedHard = calculateTotalSolved(problems, 'Hard');
 
-    ind = Math.round(Math.random() * 217); // Generate initial index
+    ind = Math.round(Math.random() * 5); // Generate initial index
     var count = 0;
     while (problems[ind].status === "Solved") {
       if (count > 217) {
@@ -13,16 +13,18 @@ fetchDataFromFile('./problems.json')
         break;
       }
 
-      ind = Math.round(Math.random() * 217);
+      ind = Math.round(Math.random() * 5);
       count++;
     }
 
 
     if (ind === -1) {
-
+      const allSolvedHTML = generateAllSolvedHTML();
+      document.body.innerHTML = allSolvedHTML;
 
     }
     else {
+
       problemToHTML(problems[ind], totalSolvedEasy, totalSolvedMedium, totalSolvedHard);
     }
 
@@ -59,6 +61,21 @@ function newProblem() {
 function redirectToAll(problemId) {
   return window.location.href = `/solved?id=${problemId}`;
 
+}
+
+function viewSolvedAfterAllSolved() {
+  window.location.href = "/solved";
+}
+
+function generateAllSolvedHTML() {
+
+  return `
+      <div class="all-solved-container">
+          <h2>All Problems Solved!</h2>
+          <p>Congratulations! You've solved all the problems.</p>
+          <button class="view-solved-btn" onclick="viewSolvedAfterAllSolved()">View Solved Problems</button>
+      </div>
+  `;
 }
 
 
