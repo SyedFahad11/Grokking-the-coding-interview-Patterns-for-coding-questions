@@ -8,6 +8,7 @@ fetchDataFromFile('./solved.json')
   .catch(error => {
     console.error('Error:', error);
   });
+
 function redirect() {
   const queryParams = new URLSearchParams(window.location.search);
   const param = queryParams.get('id');
