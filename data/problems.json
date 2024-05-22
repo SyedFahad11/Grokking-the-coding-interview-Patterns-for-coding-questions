@@ -144,7 +144,7 @@
       "Blind75",
       "Grind75"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L1128",
@@ -569,7 +569,7 @@
     "tags": [
       "Linked List"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L224",
@@ -626,7 +626,7 @@
       "Blind75",
       "Grind75"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L287",
@@ -863,7 +863,7 @@
       "Blind75",
       "Grind75"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L1236",
@@ -955,7 +955,7 @@
       "Blind75",
       "Grind75"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L49",
@@ -1068,7 +1068,7 @@
       "Bit Manipulation",
       "Sorting"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L322",
@@ -1194,7 +1194,7 @@
       "Blind75",
       "Grind75"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L91",
@@ -1286,7 +1286,7 @@
       "Sorting",
       "Grind75"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L226",
@@ -2145,7 +2145,7 @@
       "Blind75",
       "Grind75"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L778",
@@ -2386,7 +2386,7 @@
       "Trie",
       "Memoization"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L721",
@@ -2773,7 +2773,7 @@
       "Backtracking",
       "Grind75"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L22",
@@ -3073,7 +3073,7 @@
       "Union Find",
       "Matrix"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L55",
@@ -3092,7 +3092,7 @@
       "Blind75",
       "Grind75"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L2218",
@@ -3585,7 +3585,7 @@
       "String",
       "Simulation"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L62",
@@ -3694,7 +3694,7 @@
       "Two Pointers",
       "Sorting"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L47",
@@ -3876,7 +3876,7 @@
       "Graph",
       "Topological Sort"
     ],
-    "status": "Solved"
+    "status": "UnSolved"
   },
   {
     "id": "L1036",

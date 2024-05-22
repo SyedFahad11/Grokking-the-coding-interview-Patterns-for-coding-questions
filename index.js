@@ -11,7 +11,7 @@ app.use(cors())
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname,'public')));
 app.use(express.static(path.join(__dirname, 'views/Problems')));
 app.use(express.static(path.join(__dirname, 'views/Solved')));
 app.use(express.static(path.join(__dirname, 'views/Topics')));
@@ -20,6 +20,10 @@ app.use(express.static(path.join(__dirname, 'data')));
 app.get("/", async function (req, res) {
   res.sendFile(path.join(__dirname, 'views/Problems/index.html'));
 });
+app.get("/another", async function (req, res) {
+  res.sendFile(path.join(__dirname, '/another.html'));
+});
+
 
 app.get('/solved', (req, res) => {
 
