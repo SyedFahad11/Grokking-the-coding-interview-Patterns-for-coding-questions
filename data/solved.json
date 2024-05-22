@@ -1,22 +1,57 @@
 [
   {
     "id": "L338",
-
     "patterns": [
       {
         "name": "21-Dynamic Programming"
       }
     ]
-
   },
   {
     "id": "L2196",
-
     "patterns": [
       {
         "name": "6-In-place Reversal of a Linked List"
       }
     ]
-
+  },
+  {
+    "id": "L104",
+    "title": "Maximum Depth of Binary Tree",
+    "difficulty": "Easy 😎",
+    "patterns": [
+      {
+        "name": "10-Tree Depth First Search"
+      }
+    ],
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree",
+      "Blind75",
+      "Grind75"
+    ],
+    "status": "Solved",
+    "date": "22 May 2024 | 01:38 PM"
+  },
+  {
+    "id": "L18",
+    "title": "4Sum",
+    "difficulty": "Medium 🤔",
+    "patterns": [
+      {
+        "name": "Challenge Yourself"
+      }
+    ],
+    "url": "https://leetcode.com/problems/4sum",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ],
+    "status": "Solved",
+    "date": "22 May 2024 | 01:38 PM"
   }
 ]

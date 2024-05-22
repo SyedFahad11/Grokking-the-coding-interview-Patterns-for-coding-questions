@@ -25,7 +25,31 @@ app.get('/solved', (req, res) => {
 
   res.sendFile(path.join(__dirname, 'views/Solved/index.html'));
 })
-app.get('/topics', (req, res) => {
+app.get('/topics', async (req, res) => {
+
+  const preprocess =async () => {
+
+    const solved=await read('./data/solved.json');
+    const patternsArray=await read('./data/patterns.json');
+    const countArray = new Array(27).fill(0);
+
+
+
+    solved.forEach(problem => {
+      problem.patterns.forEach(pattern => {
+        const patternName = pattern.name;
+        const patternIndex = patternsArray.findIndex(pattern => pattern === patternName);
+        if (patternIndex !== undefined) {
+          countArray[patternIndex]++;
+        }
+      });
+    });
+
+    await write('./data/topics.json',countArray);
+
+  }
+
+  await preprocess();
 
   res.sendFile(path.join(__dirname, 'views/Topics/index.html'));
 })
