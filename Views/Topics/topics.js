@@ -37,9 +37,18 @@ fetchDataFromFile('./patterns.json')
       totalCell.textContent = totalArray[i];
       row.appendChild(totalCell);
 
-     
+
       table.appendChild(row);
     }
+  }
+
+  function redirect() {
+    const queryParams = new URLSearchParams(window.location.search);
+    const param = queryParams.get('id');
+    console.log(param);
+
+    return window.location.href = `/?id=${param}`;
+
   }
 
 async function fetchDataFromFile(filePath) {

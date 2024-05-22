@@ -5,18 +5,30 @@ fetchDataFromFile('./problems.json')
     const totalSolvedMedium = calculateTotalSolved(problems, 'Medium');
     const totalSolvedHard = calculateTotalSolved(problems, 'Hard');
 
-    ind = Math.round(Math.random() * 217); // Generate initial index
-    var count = 0;
-    while (problems[ind].status === "Solved") {
-      if (count > 217) {
-        ind = -1;
-        break;
+    const queryParams = new URLSearchParams(window.location.search);
+    const param = queryParams.get('id');
+    console.log(param);
+
+    var ind = -1;
+
+    if (param) {
+      console.log(param);
+      ind = problems.findIndex(problem => problem.id === param);
+    }
+    else {
+      ind = Math.round(Math.random() * 217); // Generate initial index
+      var count = 0;
+      while (problems[ind].status === "Solved") {
+        if (count > 217) {
+          ind = -1;
+          break;
+        }
+
+        ind = Math.round(Math.random() * 217);
+        count++;
       }
 
-      ind = Math.round(Math.random() * 217);
-      count++;
     }
-
 
     if (ind === -1) {
       const allSolvedHTML = generateAllSolvedHTML();
@@ -28,7 +40,8 @@ fetchDataFromFile('./problems.json')
       problemToHTML(problems[ind], totalSolvedEasy, totalSolvedMedium, totalSolvedHard);
     }
 
-    console.log("Loaded Successfully!")
+    console.log("Loaded fully")
+
     const showBtn = document.querySelector('.show-btn');
     const hiddenSection = document.querySelector('.hidden-section');
     if (showBtn) {
@@ -42,6 +55,7 @@ fetchDataFromFile('./problems.json')
         }
       });
     }
+
 
 
   })
@@ -58,7 +72,7 @@ function newProblem() {
   return window.location.href = `/`;
 }
 
-function redirectToAll(problemId) {
+function solvedPage(problemId) {
   return window.location.href = `/solved?id=${problemId}`;
 
 }
@@ -67,8 +81,8 @@ function viewSolvedAfterAllSolved() {
   window.location.href = "/solved";
 }
 
-function topicsSolved(problemId){
-  window.location.href=`/topics?id=${problemId}`;
+function topicsSolved(problemId) {
+  window.location.href = `/topics?id=${problemId}`;
 }
 
 function generateAllSolvedHTML() {
@@ -131,7 +145,7 @@ function problemToHTML(problem, totalSolvedEasy, totalSolvedMedium, totalSolvedH
       <p>Easy: ${totalSolvedEasy} / ${totalEasy}</p>
       <p>Medium: ${totalSolvedMedium} / ${totalMedium}</p>
       <p>Hard: ${totalSolvedHard} / ${totalHard}</p>
-      <button class="solved-btn" onclick="redirectToAll('${problem.id}')">View Solved Problems</button>
+      <button class="solved-btn" onclick="solvedPage('${problem.id}')">View Solved Problems</button>
       <button class="solved-btn" onclick="topicsSolved('${problem.id}')">Topics Solved</button>
   `;
 
