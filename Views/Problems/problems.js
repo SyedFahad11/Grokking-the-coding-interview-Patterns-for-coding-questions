@@ -27,6 +27,20 @@ fetchDataFromFile('./problems.json')
     }
 
     console.log("Loaded Successfully!")
+    const showBtn = document.querySelector('.show-btn');
+    const hiddenSection = document.querySelector('.hidden-section');
+    if (showBtn) {
+      showBtn.addEventListener('click', function () {
+        if (hiddenSection.style.display === 'none') {
+          hiddenSection.style.display = 'block';
+          showBtn.textContent = 'Hide Patterns & Tags';
+        } else {
+          hiddenSection.style.display = 'none';
+          showBtn.textContent = 'Show Patterns & Tags';
+        }
+      });
+    }
+
 
   })
   .catch(error => {
