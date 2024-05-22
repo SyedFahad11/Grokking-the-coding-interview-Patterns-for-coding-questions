@@ -21,6 +21,7 @@ app.get("/", async function (req, res) {
 });
 
 app.get('/solved', (req, res) => {
+
   res.sendFile(path.join(__dirname, 'views/Solved/index.html'));
 })
 
@@ -72,7 +73,7 @@ app.post("/updateStatus", async (req, res) => {
         throw new Error('Problem not found');
       }
 
-      problems[problemIndex].status = 'Solved';
+     // problems[problemIndex].status = 'Solved';
 
       await write('./data/problems.json', problems);
 

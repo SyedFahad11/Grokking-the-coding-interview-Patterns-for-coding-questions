@@ -42,6 +42,11 @@ function newProblem() {
   return window.location.href = `/`;
 }
 
+function redirectToAll(problemId) {
+  return window.location.href = `/solved?id=${problemId}`;
+
+}
+
 
 function problemToHTML(problem, totalSolvedEasy, totalSolvedMedium, totalSolvedHard) {
 
