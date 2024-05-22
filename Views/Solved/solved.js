@@ -8,80 +8,89 @@ fetchDataFromFile('./solved.json')
   .catch(error => {
     console.error('Error:', error);
   });
-  function addRowsToTable(data) {
-    const tableBody = document.querySelector('#problems-table tbody');
-    const len = data.length;
+function redirect() {
+  const queryParams = new URLSearchParams(window.location.search);
+  const param = queryParams.get('id');
+  console.log(param);
 
-    for (let i = 0; i < len; i++) {
-      const title = data[i].title;
-      const id = data[i].id;
-      const difficulty = data[i].difficulty;
-      const date = data[i].date;
-      const url = `problem-url-${i + 1}`;
+  return window.location.href = `/?id=${param}`;
 
-      const row = document.createElement('tr');
+}
 
-      const idCell = document.createElement('td');
-      idCell.textContent = id;
-      row.appendChild(idCell);
+function addRowsToTable(data) {
+  const tableBody = document.querySelector('#problems-table tbody');
+  const len = data.length;
 
-      const titleCell = document.createElement('td');
-      const titleLink = document.createElement('a');
-      titleLink.href = url;
-      titleLink.textContent = title;
-      titleCell.appendChild(titleLink);
-      row.appendChild(titleCell);
+  for (let i = 0; i < len; i++) {
+    const title = data[i].title;
+    const id = data[i].id;
+    const difficulty = data[i].difficulty;
+    const date = data[i].date;
+    const url = `problem-url-${i + 1}`;
 
-      const dateCell = document.createElement('td');
-      dateCell.textContent = date;
-      row.appendChild(dateCell);
+    const row = document.createElement('tr');
 
-      const difficultyCell = document.createElement('td');
-      difficultyCell.textContent = difficulty;
-      row.appendChild(difficultyCell);
+    const idCell = document.createElement('td');
+    idCell.textContent = id;
+    row.appendChild(idCell);
 
-      const buttonCell = document.createElement('td');
-      const button = document.createElement('button');
-      button.textContent = 'Delete';
-      buttonCell.appendChild(button);
-      row.appendChild(buttonCell);
+    const titleCell = document.createElement('td');
+    const titleLink = document.createElement('a');
+    titleLink.href = url;
+    titleLink.textContent = title;
+    titleCell.appendChild(titleLink);
+    row.appendChild(titleCell);
 
-      button.addEventListener('click', function () {
-        console.log(id);
-        const data = {
-          id: id
-        };
+    const dateCell = document.createElement('td');
+    dateCell.textContent = date;
+    row.appendChild(dateCell);
 
-        const options = {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify(data)
-        };
+    const difficultyCell = document.createElement('td');
+    difficultyCell.textContent = difficulty;
+    row.appendChild(difficultyCell);
 
-        fetch('/remove', options)
-          .then(response => {
-            if (!response.ok) {
-              throw new Error('Network response was not ok');
-            }
-            return response.json();
-          })
-          .then(data => {
-            console.log('Response from /remove endpoint:', data);
-            const row = button.parentElement.parentElement;
-            row.remove();
-          })
-          .catch(error => {
-            console.error('Error sending POST request:', error);
+    const buttonCell = document.createElement('td');
+    const button = document.createElement('button');
+    button.textContent = 'Delete';
+    buttonCell.appendChild(button);
+    row.appendChild(buttonCell);
 
-          });
+    button.addEventListener('click', function () {
+      console.log(id);
+      const data = {
+        id: id
+      };
 
-      });
+      const options = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      };
 
-      tableBody.appendChild(row);
-    }
+      fetch('/remove', options)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.json();
+        })
+        .then(data => {
+          console.log('Response from /remove endpoint:', data);
+          const row = button.parentElement.parentElement;
+          row.remove();
+        })
+        .catch(error => {
+          console.error('Error sending POST request:', error);
+
+        });
+
+    });
+
+    tableBody.appendChild(row);
   }
+}
 
 async function fetchDataFromFile(filePath) {
   try {
