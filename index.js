@@ -73,7 +73,7 @@ app.post("/updateStatus", async (req, res) => {
         throw new Error('Problem not found');
       }
 
-     // problems[problemIndex].status = 'Solved';
+      problems[problemIndex].status = 'Solved';
 
       await write('./data/problems.json', problems);
 
@@ -98,6 +98,58 @@ app.post("/updateStatus", async (req, res) => {
 
 
 })
+
+
+app.post('/remove', async (req, res) => {
+
+  async function updateStatusAndWrite(problemId) {
+    try {
+      const problems = await read('./data/problems.json');
+
+      var problemIndex = problems.findIndex(problem => problem.id === problemId);
+      if (problemIndex === -1) {
+        throw new Error('Problem not found');
+      }
+
+      problems[problemIndex].status = 'UnSolved';
+
+      await write('./data/problems.json', problems);
+
+      console.log("After updating");
+
+      const solvedData = await read('./data/solved.json');
+
+      problemIndex = solvedData.findIndex(problem => problem.id === problemId);
+
+      if (problemIndex !== -1) {
+        const afterRemove = solvedData.filter((_, index) => index !== problemIndex);
+
+        await write('./data/solved.json', afterRemove);
+      } else {
+        console.log('Problem not found in solvedData.');
+      }
+
+
+
+    } catch (error) {
+      console.error('Error updating status and writing data:', error);
+      throw error;
+    }
+  }
+
+  const problemId = req.body.id;
+  await updateStatusAndWrite(problemId.toString())
+    .then(() => {
+      console.log('Removed from Solved and data written to files successfully');
+    })
+    .catch(error => {
+      console.error('Error updating status and writing data:', error);
+    });
+
+  res.send({ resp: "removed" });
+
+})
+
 async function read(file) {
   try {
     const data = await fs.readFile(file, 'utf8');
