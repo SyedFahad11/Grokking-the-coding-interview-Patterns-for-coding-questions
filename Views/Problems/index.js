@@ -38,6 +38,11 @@ function calculateTotalSolved(problems, difficulty) {
   return problems.filter(problem => problem.difficulty.includes(difficulty) && problem.status === 'Solved').length;
 }
 
+function newProblem() {
+  return window.location.href = `/`;
+}
+
+
 function problemToHTML(problem, totalSolvedEasy, totalSolvedMedium, totalSolvedHard) {
 
   const totalEasy = 57;
