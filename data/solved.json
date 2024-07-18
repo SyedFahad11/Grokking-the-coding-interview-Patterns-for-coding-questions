@@ -8,14 +8,6 @@
         "name": "21-Dynamic Programming"
       }
     ],
-    "url": "https://leetcode.com/problems/decode-ways",
-    "tags": [
-      "String",
-      "21-Dynamic Programming",
-      "Blind75",
-      "Grind75"
-    ],
-    "status": "Solved",
     "date": "17 May 2024 | 12:06 PM"
   },
   {
@@ -27,14 +19,6 @@
         "name": "25-Union Find"
       }
     ],
-    "url": "https://leetcode.com/problems/redundant-connection",
-    "tags": [
-      "Depth-First Search",
-      "Breadth-First Search",
-      "25-Union Find",
-      "Graph"
-    ],
-    "status": "Solved",
     "date": "17 May 2024 | 12:30 PM"
   },
   {
@@ -46,15 +30,6 @@
         "name": "30-Challenge Yourself"
       }
     ],
-    "url": "https://leetcode.com/problems/maximum-subarray",
-    "tags": [
-      "Array",
-      "Divide and Conquer",
-      "21-Dynamic Programming",
-      "Blind75",
-      "Grind75"
-    ],
-    "status": "Solved",
     "date": "17 May 2024 | 02:14 PM"
   },
   {
@@ -66,12 +41,6 @@
         "name": "Merge Intervals"
       }
     ],
-    "url": "https://leetcode.com/problems/interval-list-intersections",
-    "tags": [
-      "Array",
-      "Two Pointers"
-    ],
-    "status": "Solved",
     "date": "17 May 2024 | 11:01 PM"
   },
   {
@@ -83,14 +52,6 @@
         "name": "30-Challenge Yourself"
       }
     ],
-    "url": "https://leetcode.com/problems/asteroid-collision",
-    "tags": [
-      "Array",
-      "Stack",
-      "Simulation",
-      "Grind75"
-    ],
-    "status": "Solved",
     "date": "17 May 2024 | 11:37 PM"
   },
   {
@@ -102,16 +63,6 @@
         "name": "6-In-place Reversal of a Linked List"
       }
     ],
-    "url": "https://leetcode.com/problems/reorder-list",
-    "tags": [
-      "Linked List",
-      "Two Pointers",
-      "Stack",
-      "Recursion",
-      "Blind75",
-      "Grind75"
-    ],
-    "status": "Solved",
     "date": "18 May 2024 | 12:19 AM"
   },
   {
@@ -123,12 +74,6 @@
         "name": "16-Modified Binary Search"
       }
     ],
-    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii",
-    "tags": [
-      "Array",
-      "Binary Search"
-    ],
-    "status": "Solved",
     "date": "18 May 2024 | 10:57 AM"
   },
   {
@@ -140,17 +85,6 @@
         "name": "21-Dynamic Programming"
       }
     ],
-    "url": "https://leetcode.com/problems/word-break-ii",
-    "tags": [
-      "Array",
-      "Hash Table",
-      "String",
-      "21-Dynamic Programming",
-      "Backtracking",
-      "Trie",
-      "Memoization"
-    ],
-    "status": "Solved",
     "date": "18 May 2024 | 01:33 PM"
   },
   {
@@ -162,14 +96,6 @@
         "name": "11-Tree Breadth First Search"
       }
     ],
-    "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal",
-    "tags": [
-      "Tree",
-      "Breadth-First Search",
-      "Binary Tree",
-      "Grind75"
-    ],
-    "status": "Solved",
     "date": "18 May 2024 | 02:55 PM"
   },
   {
@@ -181,13 +107,6 @@
         "name": "6-In-place Reversal of a Linked List"
       }
     ],
-    "url": "https://leetcode.com/problems/reverse-nodes-in-k-group",
-    "tags": [
-      "Linked List",
-      "Recursion",
-      "Grind75"
-    ],
-    "status": "Solved",
     "date": "21 May 2024 | 11:20 AM"
   },
   {
@@ -199,13 +118,6 @@
         "name": "13-Matrices"
       }
     ],
-    "url": "https://leetcode.com/problems/where-will-the-ball-fall",
-    "tags": [
-      "Array",
-      "Matrix",
-      "Simulation"
-    ],
-    "status": "Solved",
     "date": "21 May 2024 | 11:59 AM"
   },
   {
@@ -217,14 +129,6 @@
         "name": "20-Greedy Techniques"
       }
     ],
-    "url": "https://leetcode.com/problems/boats-to-save-people",
-    "tags": [
-      "Array",
-      "Two Pointers",
-      "Greedy",
-      "Sorting"
-    ],
-    "status": "Solved",
     "date": "21 May 2024 | 03:18 PM"
   }
 ]

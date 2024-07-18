@@ -145,8 +145,13 @@ app.post("/updateStatus", async (req, res) => {
 
 
       const dateTimeString = getDateTime();
-
-      const newData = { ...problems[problemIndex], date: dateTimeString };
+      const data={...problems[problemIndex]};
+      const newData = {id:data.id,
+        title:data.title,
+        difficulty:data.difficulty,
+        patterns:data.patterns,
+        date: dateTimeString
+      };
       solvedData.push(newData);
 
       await write('./data/solved.json', solvedData);
