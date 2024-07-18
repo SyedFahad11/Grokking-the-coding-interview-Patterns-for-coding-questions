@@ -29,34 +29,64 @@ app.get('/solved', (req, res) => {
 
   res.sendFile(path.join(__dirname, 'views/Solved/index.html'));
 })
+
 app.get('/topics', async (req, res) => {
+  try {
+    const solvedData = await read('./data/solved.json');
+    const patternsArray = await read('./data/patterns.json');
 
-  const preprocess =async () => {
-
-    const solved=await read('./data/solved.json');
-    const patternsArray=await read('./data/patterns.json');
-    const countArray = new Array(27).fill(0);
-
+    const countArray = new Array(31).fill(0);
 
 
-    solved.forEach(problem => {
-      problem.patterns.forEach(pattern => {
+    for (const problem of solvedData) {
+      for (const pattern of problem.patterns) {
         const patternName = pattern.name;
-        const patternIndex = patternsArray.findIndex(pattern => pattern === patternName);
+        const patternIndex = patternsArray.findIndex(p => p === patternName);
+
+
         if (patternIndex !== undefined) {
           countArray[patternIndex]++;
         }
-      });
-    });
+      }
+    }
 
-    await write('./data/topics.json',countArray);
+    await write('./data/topics.json', countArray);
 
+    res.sendFile(path.join(__dirname, 'views/Topics/index.html'));
+  } catch (err) {
+    console.error('Error:', err);
+    res.status(500).send('Internal Server Error');
   }
+});
 
-  await preprocess();
+app.get('/updateTotal', async (req, res) => {
+  try {
+    const problemsData = await read('./data/problems.json');
+    const patternsArray = await read('./data/patterns.json');
 
-  res.sendFile(path.join(__dirname, 'views/Topics/index.html'));
-})
+    const countArray = new Array(31).fill(0);
+
+
+    for (const problem of problemsData) {
+      for (const pattern of problem.patterns) {
+        const patternName = pattern.name;
+        const patternIndex = patternsArray.findIndex(p => p === patternName);
+
+
+        if (patternIndex !== undefined) {
+          countArray[patternIndex]++;
+        }
+      }
+    }
+
+    await write('./data/total.json', countArray);
+
+    res.send("Updated total Count");
+  } catch (err) {
+    console.error('Error:', err);
+    res.status(500).send('Internal Server Error');
+  }
+});
 
 
 app.post("/updateStatus", async (req, res) => {

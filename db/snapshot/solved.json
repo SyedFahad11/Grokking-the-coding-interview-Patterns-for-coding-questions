@@ -5,13 +5,13 @@
     "difficulty": "Medium 🤔",
     "patterns": [
       {
-        "name": "21-Dynamic Programming"
+        "name": "Dynamic Programming"
       }
     ],
     "url": "https://leetcode.com/problems/decode-ways",
     "tags": [
       "String",
-      "21-Dynamic Programming",
+      "Dynamic Programming",
       "Blind75",
       "Grind75"
     ],
@@ -24,14 +24,14 @@
     "difficulty": "Medium 🤔",
     "patterns": [
       {
-        "name": "25-Union Find"
+        "name": "Union Find"
       }
     ],
     "url": "https://leetcode.com/problems/redundant-connection",
     "tags": [
       "Depth-First Search",
       "Breadth-First Search",
-      "25-Union Find",
+      "Union Find",
       "Graph"
     ],
     "status": "Solved",
@@ -43,14 +43,14 @@
     "difficulty": "Medium 🤔",
     "patterns": [
       {
-        "name": "30-Challenge Yourself"
+        "name": "Challenge Yourself"
       }
     ],
     "url": "https://leetcode.com/problems/maximum-subarray",
     "tags": [
       "Array",
       "Divide and Conquer",
-      "21-Dynamic Programming",
+      "Dynamic Programming",
       "Blind75",
       "Grind75"
     ],
@@ -80,7 +80,7 @@
     "difficulty": "Medium 🤔",
     "patterns": [
       {
-        "name": "30-Challenge Yourself"
+        "name": "Challenge Yourself"
       }
     ],
     "url": "https://leetcode.com/problems/asteroid-collision",
@@ -99,7 +99,7 @@
     "difficulty": "Medium 🤔",
     "patterns": [
       {
-        "name": "6-In-place Reversal of a Linked List"
+        "name": "In-place Reversal of a Linked List"
       }
     ],
     "url": "https://leetcode.com/problems/reorder-list",
@@ -120,7 +120,7 @@
     "difficulty": "Medium 🤔",
     "patterns": [
       {
-        "name": "16-Modified Binary Search"
+        "name": "Modified Binary Search"
       }
     ],
     "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii",
@@ -137,7 +137,7 @@
     "difficulty": "Hard 🔥",
     "patterns": [
       {
-        "name": "21-Dynamic Programming"
+        "name": "Dynamic Programming"
       }
     ],
     "url": "https://leetcode.com/problems/word-break-ii",
@@ -145,7 +145,7 @@
       "Array",
       "Hash Table",
       "String",
-      "21-Dynamic Programming",
+      "Dynamic Programming",
       "Backtracking",
       "Trie",
       "Memoization"
@@ -159,7 +159,7 @@
     "difficulty": "Medium 🤔",
     "patterns": [
       {
-        "name": "11-Tree Breadth First Search"
+        "name": "Tree Breadth First Search"
       }
     ],
     "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal",
@@ -178,7 +178,7 @@
     "difficulty": "Hard 🔥",
     "patterns": [
       {
-        "name": "6-In-place Reversal of a Linked List"
+        "name": "In-place Reversal of a Linked List"
       }
     ],
     "url": "https://leetcode.com/problems/reverse-nodes-in-k-group",
@@ -196,7 +196,7 @@
     "difficulty": "Medium 🤔",
     "patterns": [
       {
-        "name": "13-Matrices"
+        "name": "Matrices"
       }
     ],
     "url": "https://leetcode.com/problems/where-will-the-ball-fall",
@@ -214,7 +214,7 @@
     "difficulty": "Medium 🤔",
     "patterns": [
       {
-        "name": "20-Greedy Techniques"
+        "name": "Greedy Techniques"
       }
     ],
     "url": "https://leetcode.com/problems/boats-to-save-people",
