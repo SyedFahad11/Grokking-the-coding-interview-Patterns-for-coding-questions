@@ -150,6 +150,7 @@ app.post("/updateStatus", async (req, res) => {
         title:data.title,
         difficulty:data.difficulty,
         patterns:data.patterns,
+        url:data.url,
         date: dateTimeString
       };
       solvedData.push(newData);

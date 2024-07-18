@@ -8,6 +8,7 @@
         "name": "21-Dynamic Programming"
       }
     ],
+    "url": "https://leetcode.com/problems/decode-ways",
     "date": "17 May 2024 | 12:06 PM"
   },
   {
@@ -19,6 +20,7 @@
         "name": "25-Union Find"
       }
     ],
+    "url": "https://leetcode.com/problems/redundant-connection",
     "date": "17 May 2024 | 12:30 PM"
   },
   {
@@ -30,6 +32,7 @@
         "name": "30-Challenge Yourself"
       }
     ],
+    "url": "https://leetcode.com/problems/maximum-subarray",
     "date": "17 May 2024 | 02:14 PM"
   },
   {
@@ -41,6 +44,7 @@
         "name": "Merge Intervals"
       }
     ],
+    "url": "https://leetcode.com/problems/interval-list-intersections",
     "date": "17 May 2024 | 11:01 PM"
   },
   {
@@ -52,6 +56,7 @@
         "name": "30-Challenge Yourself"
       }
     ],
+    "url": "https://leetcode.com/problems/asteroid-collision",
     "date": "17 May 2024 | 11:37 PM"
   },
   {
@@ -63,6 +68,7 @@
         "name": "6-In-place Reversal of a Linked List"
       }
     ],
+    "url": "https://leetcode.com/problems/reorder-list",
     "date": "18 May 2024 | 12:19 AM"
   },
   {
@@ -74,6 +80,7 @@
         "name": "16-Modified Binary Search"
       }
     ],
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii",
     "date": "18 May 2024 | 10:57 AM"
   },
   {
@@ -85,6 +92,7 @@
         "name": "21-Dynamic Programming"
       }
     ],
+    "url": "https://leetcode.com/problems/word-break-ii",
     "date": "18 May 2024 | 01:33 PM"
   },
   {
@@ -96,6 +104,7 @@
         "name": "11-Tree Breadth First Search"
       }
     ],
+    "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal",
     "date": "18 May 2024 | 02:55 PM"
   },
   {
@@ -107,6 +116,7 @@
         "name": "6-In-place Reversal of a Linked List"
       }
     ],
+    "url": "https://leetcode.com/problems/reverse-nodes-in-k-group",
     "date": "21 May 2024 | 11:20 AM"
   },
   {
@@ -118,6 +128,7 @@
         "name": "13-Matrices"
       }
     ],
+    "url": "https://leetcode.com/problems/where-will-the-ball-fall",
     "date": "21 May 2024 | 11:59 AM"
   },
   {
@@ -129,6 +140,7 @@
         "name": "20-Greedy Techniques"
       }
     ],
+    "url": "https://leetcode.com/problems/boats-to-save-people",
     "date": "21 May 2024 | 03:18 PM"
   }
 ]
